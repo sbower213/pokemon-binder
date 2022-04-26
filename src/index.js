@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import pokemon from 'pokemontcgsdk'
+
+require('dotenv').config();
+
+pokemon.configure({apiKey: process.env.API_KEY})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
