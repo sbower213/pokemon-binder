@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cosmos": "cosmos",
-    "cosmos:expert": "cosmos-export"
+    "cosmos:export": "cosmos-export"
   },
   "eslintConfig": {
     "extends": [

@@ -2,6 +2,8 @@ import React from 'react'
 
 // probably need more props at some point + html to render blank card input field
 // popup for picking a card image from a list instead of set names?
+// also need x,y position
+// todo: port inline style to css files
 export default function Slot({filled, children}) {
     if (filled) {
         return (
